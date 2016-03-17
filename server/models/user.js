@@ -37,4 +37,5 @@ var userSchema = new mongoose.Schema({
 }, { collection: 'userInfo' });
 // MAKE THIS PUBLIC SO THE CONTROLLER CAN SEE IT
 exports.User = mongoose.model('User', userSchema);
+
 //# sourceMappingURL=user.js.map

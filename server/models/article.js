@@ -22,4 +22,5 @@ var articleSchema = new mongoose.Schema({
 });
 // MAKE THIS PUBLIC SO THE CONTROLLER CAN SEE IT
 exports.Article = mongoose.model('Article', articleSchema);
+
 //# sourceMappingURL=article.js.map
